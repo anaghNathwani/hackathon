@@ -4,12 +4,12 @@ await Canvas();
 defaultImageScale(1);
 
 const PADDLE_SCALE = 5; // how much to enlarge the paddle pixel art
-const PADDLE_SPEED = 70; // pixels per frame
-const BALL_START_SPEED = 5;
-const BALL_SPEEDUP = 200; // added to the ball's speed on every paddle hit
+const PADDLE_SPEED = 15; // pixels per frame
+const BALL_START_SPEED = 9;
+const BALL_SPEEDUP = 8; // added to the ball's speed on every paddle hit
 const BALL_MAX_SPEED = 25;
 const MAX_BOUNCE_ANGLE = 55; // degrees, when the ball hits the very edge of a paddle
-const SPIN_FROM_PADDLE = 2.5; // how much paddle movement spins the ball
+const SPIN_FROM_PADDLE = 5; // how much paddle movement spins the ball
 const MAGNUS = 1; // how strongly spin curves the ball's path
 const SPIN_DECAY = 0.99; // spin lost every frame (air resistance)
 const WIN_SCORE = 3; //controls at what point the game is over
