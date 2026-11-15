@@ -1,0 +1,7 @@
+{
+	"compilerOptions": {
+		"target": "ES2022",
+		"checkJs": false
+	},
+	"include": ["sketch.js", "lib/q5.d.ts", "lib/p5play.d.ts"]
+}
